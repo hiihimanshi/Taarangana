@@ -1,0 +1,68 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling to the navbar */
+.navbar {
+    background-color: #333;
+    /* Background color for the navbar */
+    color: #fff;
+    /* Text color */
+    padding: 10px 0;
+    /* Add some spacing around the content */
+}
+
+.container {
+    max-width: 1200px;
+    /* Set a maximum width for the content */
+    margin: 0 auto;
+    /* Center the content horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #fff;
+    /* Text color for the logo */
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Make the logo text bold */
+}
+
+.nav-links {
+    list-style: none;
+    /* Remove bullets from the list */
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    /* Add spacing between list items */
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+    /* Remove right margin from the last item */
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #fff;
+    /* Text color for the links */
+    font-weight: bold;
+    /* Make the links bold */
+}
+
+/* Style the links on hover */
+.nav-links a:hover {
+    text-decoration: underline;
+    /* Add an underline on hover */
+}
