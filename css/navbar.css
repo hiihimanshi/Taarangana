@@ -1,0 +1,25 @@
+/* Navbar Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
