@@ -3,21 +3,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* Adjust as needed */
-  max-width: 500px;
-  /* Adjust the width of the collage */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .image-container {
   flex: 0 0 calc(50% - 10px);
-  /* Adjust width and spacing as needed */
   margin: 5px;
-  /* Adjust spacing between images */
   position: relative;
+  overflow: hidden; /* Hide overflow for hover effect */
+  transition: transform 0.3s; /* Add a smooth transform animation on hover */
 }
 
 .image-container img {
   width: 100%;
   height: auto;
+  transition: transform 0.3s; /* Add a smooth transform animation on hover */
+}
+
+/* Hover effect - scale up the image and add a shadow */
+.image-container:hover {
+  transform: scale(1.1); /* Scale up the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Hover effect - scale up the image */
+.image-container:hover img {
+  transform: scale(1.1); /* Scale up the image */
 }

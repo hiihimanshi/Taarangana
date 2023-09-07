@@ -12,8 +12,9 @@
 
 body {
     background: #082337;
-    background-color: gold;
-    color: #ffffff;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* html {
@@ -84,4 +85,43 @@ header {
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
+}
+
+.tar{
+    text-align: end;
+    text-shadow: #112e42;
+    color: white;
+    font-size: 100px;
+    padding: 300px 0;
+    animation: fadeInShadow 2s ease-in-out forwards;
+    text-shadow: 0 0 10px rgba(17, 46, 66, 0.5); /* Adding a shadow */
+}
+@keyframes fadeInShadow {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: white;
+    }
+  }
+
+
+  .fullscreen-video {
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Style for the video element */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }

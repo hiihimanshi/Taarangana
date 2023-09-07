@@ -1,25 +1,25 @@
 /* Navbar Styles */
+
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  color: #fff; /* Updated text color to white */
+  min-height: 50px;
   background-color: darkorange;
-  color: black;
-  min-height: 100px;
-}
-
-.logo {
-  max-width: 80px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: black;
-  margin: 0 10px;
-  font-weight: inherit;
+  color: #333; /* Darker text color for better readability */
+  margin: 0 10px; /* Increased margin for spacing */
+  font-weight: bold; /* Added font weight for emphasis */
+  transition: color 0.3s; /* Smooth color transition */
 }
 
 .navbar a:hover {
+  color: #ff6b6b; /* Hover color matches the header background */
   text-decoration: underline;
 }

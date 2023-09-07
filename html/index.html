@@ -18,29 +18,30 @@
 
 <body>
     <!-- Navbar -->
-    <header class="header">
+    <div class="header">
         <img class="logo" src="../assets/image/Tarangana.jpg" alt="Tarangana Logo">
         <nav class="navbar">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Gallery</a>
         </nav>
-    </header>
+    </div>
 
     <!-- Home section -->
     <section class="Home">
-        <h1>Taarangana</h1>
+        <h1 class="tar">Taarangana</h1>
     </section>
 
     <!-- Gallery section -->
-    <section class="collage">
+    <div class="collage">
         <!-- Add gallery content here -->
-        <div class="collage">
+        <h1 style="font-size: xx-large; margin: 20px auto; text-align: center; justify-content: center; text-decoration: underline;">Gallery</h1>
+        <div class="collage" style="align-items: center;">
             <div class="image-container">
                 <img src="../assets/image/image1.jpg" alt="Image 1">
             </div>
             <div class="image-container">
-                <img src="../assets/image/image2.jpg" alt="Image 2">
+                <img src="../assets/image/image2.jpg" alt="Image 1">
             </div>
             <div class="image-container">
                 <img src="../assets/image/image3.jpg" alt="Image 3">
@@ -49,7 +50,13 @@
                 <img src="../assets/image/image4.jpg" alt="Image 4">
             </div>
         </div>
-    </section>
+    </div>
+    <div class="videos"><div class="fullscreen-video">
+            <video controls autoplay>
+                <!-- Provide video source(s) here -->
+                <source src="../assets/video/t1.mp4" type="video/mp4">
+            </video>
+        </div>
 
     <!-- About section -->
     <section class="about">
@@ -65,7 +72,7 @@
 
 
     <!-- Footer section -->
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-content">
             <p>&copy; 2023 Taarangana - All Rights Reserved</p>
             <div class="social-icons">
@@ -74,7 +81,7 @@
                 <a href="#"><i class="bx bxl-instagram"></i></a>
             </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>
