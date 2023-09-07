@@ -1,5 +1,23 @@
 /* Gallery Section Styles */
-.gallery {
-    /* Add your gallery styles here */
-  }
-  
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Adjust as needed */
+  max-width: 500px;
+  /* Adjust the width of the collage */
+  margin: 0 auto;
+}
+
+.image-container {
+  flex: 0 0 calc(50% - 10px);
+  /* Adjust width and spacing as needed */
+  margin: 5px;
+  /* Adjust spacing between images */
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}

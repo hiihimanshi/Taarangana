@@ -1,8 +1,13 @@
 /* Home Section Styles */
 .Home {
-    background-image: url('../assets/image/test.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-  
+  background-image: url('../assets/image/test.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* h1 {
+  width: 200px;
+  height: 100px;
+  color: white;
+} */
