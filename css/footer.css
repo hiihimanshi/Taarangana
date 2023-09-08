@@ -31,3 +31,42 @@
 .social-icons a:hover {
   color: white;
 }
+
+.footer-iconTop a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .4rem;
+  background: black;
+  border: .2rem solid black;
+  border-radius: .6rem;
+}
+
+.footer-iconTop a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: darkorange;
+  z-index: -1;
+  transition: .5s;
+}
+
+.footer-iconTop a:hover::before {
+  width: 100%;
+}
+
+.footer-iconTop a i {
+  font-size: 2.4rem;
+  /* color: var(--bg-color); */
+  color: black;
+  transition: .5s;
+}
+
+.footer-iconTop a:hover i {
+  /* color: var(--main-color); */
+  color: #fff;
+}
