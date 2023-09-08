@@ -6,20 +6,26 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: #fff; /* Updated text color to white */
+  color: #fff;
+  /* Updated text color to white */
   min-height: 50px;
   background-color: darkorange;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #333; /* Darker text color for better readability */
-  margin: 0 10px; /* Increased margin for spacing */
-  font-weight: bold; /* Added font weight for emphasis */
-  transition: color 0.3s; /* Smooth color transition */
+  color: #333;
+  /* Darker text color for better readability */
+  margin: 0 10px;
+  /* Increased margin for spacing */
+  font-weight: bold;
+  /* Added font weight for emphasis */
+  transition: color 0.3s;
+  /* Smooth color transition */
 }
 
 .navbar a:hover {
-  color: #ff6b6b; /* Hover color matches the header background */
+  color: #fff;
+  /* Hover color matches the header background */
   text-decoration: underline;
 }
