@@ -11,23 +11,38 @@
   flex: 0 0 calc(50% - 10px);
   margin: 5px;
   position: relative;
-  overflow: hidden; /* Hide overflow for hover effect */
-  transition: transform 0.3s; /* Add a smooth transform animation on hover */
+  overflow: hidden;
+  transition: transform 0.3s;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
-  transition: transform 0.3s; /* Add a smooth transform animation on hover */
+  transition: transform 0.3s;
 }
 
-/* Hover effect - scale up the image and add a shadow */
 .image-container:hover {
-  transform: scale(1.1); /* Scale up the image */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  transform: scale(1.1);
+  /* Scale up the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add a shadow */
 }
 
-/* Hover effect - scale up the image */
 .image-container:hover img {
-  transform: scale(1.1); /* Scale up the image */
+  transform: scale(1.1);
+  /* Scale up the image */
+}
+
+/* Style for the video element
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+} */
+
+/* Style for the video element */
+video {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
 }
